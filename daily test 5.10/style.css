@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(229, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.box{
+   border-radius: 10px;
+    margin-top: 20%;
+    width: 500px;
+    height: 230px;
+    background-color: white;
+    box-shadow: 2px 2px 15px;
+}
+.hed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 input{
+  
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
+.box1 input.write{
+  
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(0, 249, 166);
+}
+.box1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin-left: -60px;
+  font-size: 20px;
+}
+.lowbox{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.lb1{
+
+    border-radius: 10px;
+    width: 130px;
+    height: 10px;
+    background-color: rgb(88, 87, 87);
+}
+.lb1.error{
+
+    border-radius: 10px;
+    width: 130px;
+    height: 10px;
+    background-color: rgb(255, 0, 0);
+}
+.lb2{
+    border-radius: 10px;
+    width: 130px;
+    height: 10px;
+    background-color: rgb(88, 87, 87);
+}
+.lb2.error{
+
+    border-radius: 10px;
+    width: 130px;
+    height: 10px;
+    background-color: rgb(255, 255, 0);
+}
+.lb3{
+    border-radius: 10px;
+    width: 130px;
+    height: 10px;
+    background-color: rgb(88, 87, 87);
+}
+.lb3.error{
+
+    border-radius: 10px;
+    width: 130px;
+    height: 10px;
+    background-color: rgb(0, 255, 85);
+}
+.hed1{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
